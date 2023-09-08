@@ -1,0 +1,132 @@
+.herosection{
+    height: 100vh;
+    /* width: 207vh; */
+    /* background-color: rgb(136, 153, 51); */
+    scroll-snap-align: center;
+   
+}
+.whosection{
+    height: 100vh;
+    /* width: 207vh; */
+    /* background-color: rgb(50, 27, 162); */
+    scroll-snap-align: center;
+}
+.worksection{
+    height: 100vh;
+    /* width: 207vh; */
+    /* background-color: rgb(82, 16, 71); */
+    scroll-snap-align: center;
+}
+.contactsection{
+    height: 100vh;
+    /* width: 207vh; */
+    /* background-color: rgb(68, 15, 22); */
+    scroll-snap-align: center;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.navbar2{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.logo{
+    height: 50px ;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search{
+    width: 20px;
+    cursor: pointer;
+}
+.hirebutton{
+    width: 150px;
+    padding: 10px;
+    background-color: #da4ea2;
+}
+.belownavbar{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.right{
+    flex: 3;
+    position: relative;
+}
+.myprof{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.height{
+    height: 5px;
+}
+.moonimg{
+    width: 800px;
+    height: 600px;
+    object-fit: contain;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    animation: animate 3s infinite ease alternate;
+
+}
+
+@keyframes animate {
+    to{
+        transform: translateY(50px);
+    }
+   
+}
+.left2{
+    align-items: left;
+}
+.myh2{
+    color: #da4ea2;
+}
+.belownavbar2{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 100px;
+   
+}
+.leftwork{
+    flex:1;
+}
+.rightwork{
+    flex:1;
+}
+ 
