@@ -121,12 +121,97 @@
     align-items: center;
     margin: auto;
     padding-top: 100px;
+    display: flex;
+    align-items: center;
    
 }
 .leftwork{
     flex:1;
+    display: flex;
+    
 }
 .rightwork{
     flex:1;
 }
- 
+.belownavbar3{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20vh 0;
+    display: flex;
+    align-items: center;
+}
+.worklist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.workli{
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    position: relative;
+}
+.workli::after{
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+.contactme{
+    padding-left: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.leftcontact{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rightcontact{
+    flex: 1;
+}
+.contactname{
+    padding: 20px;
+    background-color: rgb(153, 142, 142);
+    border: none;
+    border-radius: 5px;
+}
+.contactemail{
+    padding: 20px;
+    background-color: rgb(153, 142, 142);
+    border: none;
+    border-radius: 5px;
+}
+.contactmessage{
+    padding: 20px;
+    background-color: rgb(153, 142, 142);
+    border: none;
+    border-radius: 5px;
+}
+.belownavbar4{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10vh 0;
+    display: flex;
+    align-items: center;
+}
+.sendbutton{
+    
+        /* width: 150px; */
+        padding: 10px;
+        background-color: #da4ea2;
+    
+}
