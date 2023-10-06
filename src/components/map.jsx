@@ -1,13 +1,13 @@
-// import React from "react";
-// import {
-//   ComposableMap,
-//   Geographies,
-//   Geography,
-//   Annotation,
-//   ZoomableGroup
-// } from "react-simple-maps";
+import React from "react";
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Annotation,
+  ZoomableGroup
+} from "react-simple-maps";
 
-const MapChart = () => {
+const Map = () => {
   return (
     <ComposableMap
       projection="geoAzimuthalEqualArea"
@@ -16,6 +16,11 @@ const MapChart = () => {
         center: [-5, -3],
         scale: 1100
       }}
+      style={
+        {
+          width:"100%", height:"100%"
+        }
+      }
     >
       <Geographies
         geography="/features.json"
@@ -30,7 +35,7 @@ const MapChart = () => {
         }
       </Geographies>
       <Annotation
-        subject={[2.3522, 48.8566]}
+        subject={[77.216721,28.644800]}
         dx={-90}
         dy={-30}
         connectorProps={{
@@ -47,4 +52,4 @@ const MapChart = () => {
   );
 };
 
-export default MapChart;
+export default Map;
