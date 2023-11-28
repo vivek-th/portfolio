@@ -8,6 +8,7 @@ import Box from './components/box'
 import Mymodel from './components/mymodel'
 import Workexp from './components/experience'
 import ParticlesContainer from './components/ParticlesContainer'
+import Aboutme from './components/Aboutme'
 
 
 
@@ -19,13 +20,13 @@ function App() {
       
 
       <Hero/>
-
+      <Box/>
       <Workexp/>
       <Who/>
       <Works/>
       <Contacts/>
      
-      <Box/>
+      
      
 
     </div>

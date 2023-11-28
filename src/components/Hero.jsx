@@ -5,7 +5,22 @@ import React from "react";
 import Mymodel from "./mymodel";
 import "./components.css";
 import {useTypewriter, cursor} from 'react-simple-typewriter';
+
+
+
+
+
 const Hero = () => {
+
+  
+    const [typeEffect]= useTypewriter({
+      words:['Vivek Thakur' , 'Developer' ],
+      loop:{},
+      typeSpeed:100,
+      deleteSpeed:40
+    })
+  
+
   return (
     <div className="herosection">
       <div>
@@ -14,15 +29,17 @@ const Hero = () => {
   
       <div className="container">
         <div className="left">
-          <h1> Hey! I Am Vivek Thakur</h1>
+          <h1> Hey! I Am <span style={{color: '#da4ea2'}}>{typeEffect}</span>
+
+          </h1>
           <div className="myprof">
             <img className="height" src="./img/line.png" alt="Line" />
-            <h2>developer</h2>
+            <h2>Buckle up, Earthling ! You've Landed on my <br/> 3D Celestial Corner 🚀👩‍🚀</h2>
           </div>
           <div className="desc">
-            I am a final year student and I love coding Tin Tin
+          Final-year Btech CSE'24 student | Seeking job opportunities in Software Development & Web Development. Let's write stellar code together! 💫💻"
           </div>
-          <button className="hirebutton">Learn more</button>
+          <button className="hirebutton">MY RESUME</button>
         </div>
 
         <Mymodel className="mymodel-container" />
