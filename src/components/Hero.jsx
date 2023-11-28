@@ -14,7 +14,7 @@ const Hero = () => {
 
   
     const [typeEffect]= useTypewriter({
-      words:['Vivek Thakur' , 'Developer' ],
+      words:['Vivek ' , 'Developer' ],
       loop:{},
       typeSpeed:100,
       deleteSpeed:40
@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
           <div className="myprof">
             <img className="height" src="./img/line.png" alt="Line" />
-            <h2>Buckle up, Earthling ! You've Landed on my <br/> 3D Celestial Corner 🚀👩‍🚀</h2>
+            <h2>Buckle up, Earthling ! You've Landed on<br/> my 3D Celestial Corner 🚀👩‍🚀</h2>
           </div>
           <div className="desc">
           Final-year Btech CSE'24 student | Seeking job opportunities in Software Development & Web Development. Let's write stellar code together! 💫💻"
