@@ -11,9 +11,11 @@ const Navbar = () => {
           <img className="logo" src="./img/logo.png"></img>
           <div className='links'>
             <div>Home</div>
+            <div>experience</div>
             <div>Work</div>
             <div>Studio</div>
-            <div>works</div>
+          
+            
        
           </div>
         </div>
