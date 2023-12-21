@@ -24,7 +24,7 @@ const Hero = () => {
   return (
     <div className="herosection">
       <div>
-        <Navbar />
+        <Navbar style={{position: 'fixed', top:0}}/>
       </div>
   
       <div className="container">

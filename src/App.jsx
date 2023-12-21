@@ -9,6 +9,9 @@ import Mymodel from './components/mymodel'
 import Workexp from './components/experience'
 import ParticlesContainer from './components/ParticlesContainer'
 import Aboutme from './components/Aboutme'
+import ThreeJSExample from './components/Who'
+import Navbar from './components/Navbar'
+import Sphere from './components/Who'
 
 
 
@@ -18,11 +21,14 @@ function App() {
   return (
     <div className='styling'>
       
-
+      {/* <Navbar /> */}
       <Hero/>
       <Box/>
       <Workexp/>
-      <Who/>
+      {/* <ThreeJSExample/>
+       */}
+        <Sphere />
+      {/* <SectionWrapper/> */}
       <Works/>
       <Contacts/>
      

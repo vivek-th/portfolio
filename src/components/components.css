@@ -283,3 +283,10 @@
     flex-direction: column;
     gap: 10px;
   }
+  .herosection2{
+    height: 200vh;
+    /* width: 207vh; */
+    /* background-color: rgb(136, 153, 51); */
+    scroll-snap-align: center;
+   
+}

@@ -9,7 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 const data = ["Experience"];
 const Workexp = () => {
   return (
-    <div className="herosection">
+    <div className="herosection2">
       <div className="worklist" style={{textAlign:"center"}}>
             {data.map((item) => (
               <li className="workli" key={item} test={item}>{item} </li>
@@ -19,7 +19,7 @@ const Workexp = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#AA336A", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "7px solid  #AA336A" }}
           date="(Dugri, Ludhiana) May 2023- July 2023"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -44,6 +44,7 @@ const Workexp = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#AA336A", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #AA336A" }}
           date="(Ferozepur Road, Ludhiana) June 2022 – Aug 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -69,6 +70,7 @@ const Workexp = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#AA336A", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #AA336A" }}
           date="(GNDEC, Ludhiana) May 2020- Present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -83,7 +85,7 @@ const Workexp = () => {
             <i>Convenor</i>
           </h4>
           <p>
-            🚀 Managed society’s database and events. <br />
+            🚀Managed society’s database and events. <br />
             🚀Created Posters with Canva.
             <br />
             🚀Conducted and organised various workshops.
@@ -91,7 +93,31 @@ const Workexp = () => {
           </p>
         </VerticalTimelineElement>
        
-        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentArrowStyle={{ borderRight: "7px solid  #AA336A" }}
+          contentStyle={{ background: "#AA336A", color: "#fff" }}
+          date="(GNDEC, Ludhiana) June 2020- Present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          // icon={<WorkIcon />}
+        >
+          <h3
+            className="vertical-timeline-element-title"
+            style={{ color: "#130340" }}
+          >
+            National Service Scheme
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            <i>Student Convenor</i>
+          </h4>
+          <p>
+            🚀Organised various camps and seminars. <br />
+            🚀Personality development through community services..
+            <br />
+           
+          </p>
+        </VerticalTimelineElement>
+       
       </VerticalTimeline>
     </div>
   );
